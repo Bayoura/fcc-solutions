@@ -6,3 +6,4 @@ function checkObj(obj, checkProp) {
     return obj.hasOwnProperty(checkProp) 
     ? obj[checkProp] : 'Not Found'; // You have to use bracket notation to access a property which is stored as the value of a variable!!
 }
+checkObj({gift: "pony", pet: "kitten", bed: "sleigh"}, "gift");
